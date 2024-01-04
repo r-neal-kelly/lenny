@@ -17,13 +17,13 @@ toggle() {
 }
 
 showToolTip() {
-  ToolTip, %lenny_state%
-  SetTimer, hideToolTip, 1200
+    ToolTip, %lenny_state%
+    SetTimer, hideToolTip, 1200
 }
 
 hideToolTip() {
-  SetTimer, hideToolTip, Off
-  ToolTip
+    SetTimer, hideToolTip, Off
+    ToolTip
 }
 
 ; This turns on and off the keys below the if statement
